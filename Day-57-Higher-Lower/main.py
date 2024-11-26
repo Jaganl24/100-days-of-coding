@@ -24,5 +24,6 @@ def guess(number):
                "<img src='https://media.giphy.com/media/jD4DwBtqPXRXa/giphy.gif'>"
     else:
         return"<h1>You guessed wrong</h1>"
+        
 if __name__ == '__main__':
     app.run(debug=True) #can debug without re-running
